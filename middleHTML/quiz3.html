@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registerQuiz</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form action="https://www.google.com">
+
+	<p>
+		<label for="firstName">First Name:</label>
+		<input type="text" id="firstName" required="" placeholder="Jiaxin" name="first">
+
+		<label for="lastName">Last Name:</label>
+		<input type="text" id="lastName" required="" placeholder="Li" name="last">
+
+	</p>
+	<!-- or use <div></div> skip line -->
+
+	<p>
+		<label for="male">Male</label>
+		<input type="radio" id="male" name="Sex" value="male" required="">
+
+		<label for="female">Female</label>
+		<input type="radio" id="female" name="Sex" value="female" required="">
+
+		<label for="other">Other</label>
+		<input type="radio" id="other" name="Sex" value="other" required="">
+	</p>
+
+
+	<p>
+
+		<!-- 
+		<label for="email">Email:</label>
+		<input type="email" id="email" required placeholder="your email" name="email"> -->
+		<label>
+			Email:
+			<input type="email" required placeholder="your email" name="email">
+		</label>
+
+
+		<label>
+			Password:
+			<input type="password" name="password" pattern=".{5,10}" required="" title="5 to 10 characters required">
+
+
+		</label>
+
+	</p>
+
+	<p>
+
+		<label>
+			Birthday:
+
+			<select name="month" required="">
+				<option value="">Month</option>
+				<option value="1">January</option>
+				<option value="2">Februry</option>
+				<option value="3">March</option>
+			</select>
+
+			<select name="Day" required="">
+				<option value="">Day</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select>
+
+			<select name="Year" required="">
+				<option value="">Year</option>
+				<option value="97">1997</option>
+				<option value="98">1998</option>
+				<option value="99">1999</option>
+			</select>
+		</label>
+
+
+
+
+	</p>
+
+	<p>
+
+		<label for="checkbox">I agree to the terms and conditions</label>
+		<input type="checkbox" name="checkbox" value="true" required="" id="checkbox">
+	</p>
+
+	<p>
+		<input type="submit">
+	</p>
+ 
+	</form>
+
+</body>
+</html>
