@@ -1,14 +1,28 @@
 h1
 {
 	color: #FF8010;
+	
+
+	border: 2px dashed green; 
+	/*width style color*/
 }
 
 li
 {
-	color: #F400DD;
+	color: rgba(11, 99, 150, 0.6);
 }
 
 h4
 {
 	color: rgb(20, 99, 150);
+	background: rgb(255, 100, 80);
 }
+
+body
+{
+	background: url(d4b77e9f74e029db7ff313917636d1d7.jpg);
+	background-size: cover; 
+
+
+}
+

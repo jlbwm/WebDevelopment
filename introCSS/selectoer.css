@@ -1,0 +1,34 @@
+
+/*star 对所有起作用*/
+*
+{
+	border: 1px solid lightgrey;
+}
+
+/*在每个li中的a起作用 descendant selector 后代选择器*/
+li a 
+{
+	
+	color: red;
+}
+
+/*adjacent selector 对每个h4邻接的ul进行操作*/
+h4 + ul
+{
+	border: 4px solid red;
+}
+
+
+/*attribute seletor*/
+
+a[href="https://www.google.com"]
+{
+	background: orange;
+}
+
+/*nth of types*/
+
+ul:nth-of-type(2)
+{
+	background: purple;
+}
