@@ -1,0 +1,33 @@
+img
+{
+	width: 30%;
+	/*设置没有空间*/
+	float: left;
+
+	margin: 1.66%;
+
+
+}
+
+h1
+{
+	font-family: 'Open Sans';
+	font-size: 23px;
+	font-weight: 800;
+
+	margin-left: 1.66%;
+
+	border-bottom: 1px solid #F1F1F1;
+
+	width: 30%;
+
+	padding-bottom: 20px;
+
+}
+
+p
+{
+	
+
+
+}

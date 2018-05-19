@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<style type="text/css">
+		table
+		{
+			margin:auto;
+		}
+		td
+		{
+			/*让每个表格都为100*100*/
+			width: 100px;
+			height: 100px;
+			
+
+		}
+		.vertical
+		{
+			border-left: 1px solid black;
+			border-right: 1px solid black;
+		}
+
+		.horizontal
+		{
+			border-top: 1px solid black;
+			border-bottom: 1px solid black;
+		}
+		h1
+		{
+			text-align: center;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<h1>TicTacToe</h1>
+	<table>
+		<tr>
+			<td></td>
+			<td class="vertical"></td>
+			<td></td>
+
+		</tr>
+
+		<tr>
+			<td class="horizontal"></td>
+			<td class="vertical horizontal"></td>
+			<!-- 属于多个类直接打空格就好了 -->
+			<td class="horizontal"></td>
+
+		</tr>
+
+		<tr>
+			<td></td>
+			<td class="vertical"></td>
+			<td></td>
+
+		</tr>
+
+	</table>
+
+</body>
+</html>
